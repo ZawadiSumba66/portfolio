@@ -42,6 +42,7 @@ h4 {
     height: 550px;
     padding-top: 150px;
 } 
+
 .illustration img {
     height: 250px;
     width: 250px;
@@ -84,15 +85,8 @@ h4 {
 
 .skill-set {
     display: flex;
-    margin: 0 300px; 
-}
-
-.skill-set .card {
-    margin-left: 10px;
-    padding: 0;
-    background-color: #3c0000;
-    color: #f5d0c5;
-    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
 }
 
 .skill-header {
@@ -105,12 +99,6 @@ h4 {
 #projects{
     color: #774936;
 }
-#projects .card-deck {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin:auto;
-}
 
 #projects hr {
     border: 2px solid #f5d0c5;
@@ -118,15 +106,7 @@ h4 {
     width: 10%;  
   }
 
-.card h5 {
-  font-weight: 700;
-}
-
-.card p {
-  font-weight: 500;
-}
-
-.card-footer a{
+.display-project a{
     background-color: #3c0000;
     color: white;
     padding: 10px;
@@ -134,6 +114,7 @@ h4 {
     font-weight: 700;
     text-decoration: none;   
 }
+
 #contact {
   background-color: #f5d0c5;
   height: 400px;
@@ -156,3 +137,22 @@ h4 {
   color: #3c0000;
 }
 
+.display-project img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/**Medium screen size **/
+@media screen and (max-width: 1024px) {
+.skill-set {
+  display: flex;
+  justify-content: center;
+}
+}
+ @media screen and (max-width: 768px) {
+   .display-project {
+     display: flex;
+     flex-direction: column;
+   }
+} 
