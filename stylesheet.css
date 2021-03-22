@@ -162,6 +162,7 @@ h4 {
      flex-direction: column;
    }
    .display-project img {
+      padding-bottom: 20px;;
       display: flex;
       justify-content: center;
       margin: auto;
