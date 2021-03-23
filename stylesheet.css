@@ -42,11 +42,9 @@ h4 {
     height: 550px;
     padding-top: 150px;
 } 
-
-.illustration img {
-    height: 250px;
-    width: 250px;
-    margin-left: 300px;
+#home a{
+  color: #f5d0c5;
+  font-size: 24px;
 }
 
 .text-home {
