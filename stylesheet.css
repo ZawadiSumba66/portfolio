@@ -103,8 +103,12 @@ h4 {
 }
 #projects{
     color: #774936;
-    margin: auto;
-    width: 90%;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.all-projects {
+  margin-left: 200px;
 }
 
 #projects hr {
