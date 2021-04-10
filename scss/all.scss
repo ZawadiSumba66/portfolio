@@ -121,15 +121,16 @@ h4 {
   }
 
   .toggle .line1 {
-    transform: rotate(-40deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-1px, 6px);
   }
 
   .toggle .line2 {
-    transform: rotate(90deg) translate(0, 0);
+    display: none;
   }
 
   .toggle .line3 {
-    transform: rotate(35deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-1px, -6px);
+    width: 25px;
   }
 
   .skill-set p {

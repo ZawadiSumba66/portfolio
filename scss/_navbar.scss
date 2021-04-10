@@ -33,12 +33,25 @@
 .burger {
   display: none;
   cursor: pointer;
-
-  div {
-    width: 25px;
-    height: 3px;
-    background-color: $color-maroon;
-    margin: 5px;
-    transition: all 0.3s ease;
+    .line1 {
+      width: 25px;
+      height: 3px;
+      background-color: $color-maroon;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+    .line2 {
+      width: 20px;
+      height: 3px;
+      background-color: $color-maroon;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+    .line3 {
+      width: 15px;
+      height: 3px;
+      background-color: $color-maroon;
+      margin: 5px;
+      transition: all 0.3s ease;
   }
 }
