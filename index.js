@@ -19,8 +19,8 @@ const navSlide = () => {
     // burger animation
     burger.classList.toggle('toggle');
   });
-  ('.navbar-custom ul li a').addEventListener('click', (e) => {
-    e.click().removeClass('active');
+  $('.navbar-custom ul li a').on('click', (e) => {
+    burger.click().removeClass('active');
   });
 };
 
