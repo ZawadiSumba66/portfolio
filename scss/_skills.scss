@@ -1,21 +1,22 @@
 #skills {
-    margin-top: 1rem;
-    p {
-        color: $color-maroon;
-      }
-    }     
-     
+  margin-top: 1rem;
+
+  p {
+    color: $color-maroon;
+  }
+}
+
 .skill-set {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .skill-header {
-    color: $color-maroon;
+  color: $color-maroon;
 }
 
 .skill-each {
-    color: $color-maroon;
-    font-weight: 900;
+  color: $color-maroon;
+  font-weight: 900;
 }

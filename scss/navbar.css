@@ -18,10 +18,12 @@
 .nav-links {
   display: flex;
 }
+
 .nav-links li {
   list-style: none;
   padding: 0 10px;
 }
+
 .nav-links a {
   color: #3c0000;
   text-decoration: none;
@@ -32,10 +34,11 @@
   display: none;
   cursor: pointer;
 }
+
 .burger div {
   width: 25px;
   height: 3px;
   background-color: #3c0000;
   margin: 5px;
   transition: all 0.3s ease;
-}/*# sourceMappingURL=navbar.css.map */
+}

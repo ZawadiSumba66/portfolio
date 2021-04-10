@@ -1,40 +1,44 @@
 .navbar-custom {
-    background-color: $color-cream;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .navbar-logo {
-    font-family: 'Redressed', cursive;
-    color: $color-maroon;
-    font-size: 20px;
-    font-weight: 800;
-  }
-  
-  .nav-links{
-    display: flex;
-    li{
-    list-style:none;  
+  background-color: $color-cream;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-logo {
+  font-family: 'Redressed', cursive;
+  color: $color-maroon;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+
+  li {
+    list-style: none;
     padding: 0 10px;
   }
-  a{
+
+  a {
     color: $color-maroon;
     text-decoration: none;
-    font-weight:bold;
+    font-weight: bold;
   }
 }
-  .burger{
-    display:none;
-    cursor: pointer;
-   div{
-    width:25px;
-    height:3px;
+
+.burger {
+  display: none;
+  cursor: pointer;
+
+  div {
+    width: 25px;
+    height: 3px;
     background-color: $color-maroon;
     margin: 5px;
-    transition: all 0.3s ease  
+    transition: all 0.3s ease;
   }
 }

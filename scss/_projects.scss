@@ -1,28 +1,29 @@
-#projects{
-    color: $color-maroon;
-    font-size: 13px;
-    font-weight: 500;
-    hr {
-        border: 2px solid $color-cream;
-        border-radius: 20px;
-        width: 10%;  
-      }
+#projects {
+  color: $color-maroon;
+  font-size: 13px;
+  font-weight: 500;
+
+  hr {
+    border: 2px solid $color-cream;
+    border-radius: 20px;
+    width: 10%;
+  }
 }
 
 .all-projects {
   margin-left: 200px;
 }
 
-.display-project a{
-    background-color: $color-maroon;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: 700;
-    text-decoration: none;  
+.display-project a {
+  background-color: $color-maroon;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.display-project img{
+.display-project img {
   width: 300px;
   height: 200px;
 }
