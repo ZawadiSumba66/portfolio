@@ -2,30 +2,121 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #f5d0c5;
 }
-.navbar-custom {
-  background-color: #f5d0c5;
+
+section {
+  padding-top: 70px;
+  margin-top: -60px;
 }
 
-.navbar-brand {
+.wrap {
+  height: 100%;
+  overflow: auto;
+}
+.navbar-custom {
+  background-color: #f5d0c5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-logo {
   font-family: 'Redressed', cursive;
   color: #3c0000;
   font-size: 20px;
   font-weight: 800;
 }
 
-.navbar-brand:hover {
-  color: #774936;
+.nav-links{
+  display: flex;
 }
 
-.nav-link {
+.nav-links li{
+  list-style:none;  
+  padding: 0 10px;
+}
+
+.nav-links a{
   color: #3c0000;
-  font-weight: 800;
+  text-decoration: none;
+  font-weight:bold;
 }
 
-.nav-link:hover {
-  color: #774936;
+.burger{
+  display:none;
+  cursor: pointer;
 }
 
+.burger div{
+  width:25px;
+  height:3px;
+  background-color:#fff;
+  margin: 5px;
+  transition: all 0.3s ease
+  
+}
+
+@media screen and (max-width:1024px){
+  .nav-links{
+    width:60%;
+  }
+}
+
+@media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+  .nav-links{
+    position:absolute;
+    right:0px;
+    height:92vh;
+    top: 8vh;
+    background-color:#f5d0c5;
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    width:50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    opacity: 0.7;
+  }
+  .nav-links li{
+    opacity: 0;
+    padding-top: 3rem;
+  }
+  .burger{
+    display:block;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity:0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-40deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+  transform: rotate(90deg) translate(0px,0px);
+}
+
+.toggle .line3{
+  transform: rotate(35deg) translate(-5px,-6px);
+}
 hr {
   border-radius: 5px;
   width: 10%;  
@@ -160,6 +251,9 @@ h4 {
 }
 }
  @media screen and (max-width: 768px) {
+   #home {
+     padding-top: 100px;
+   }
    .skill-set p {
      font-size: 0.9rem;
    }
