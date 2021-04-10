@@ -1,0 +1,26 @@
+#home {
+  background-color: #3c0000;
+  height: 550px;
+  padding-top: 150px;
+}
+#home a {
+  color: #f5d0c5;
+  font-size: 24px;
+}
+
+.text-home {
+  padding-left: 50px;
+  border-left: 6px solid #f5d0c5;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  display: flex;
+}
+.text-home h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.text-home h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}/*# sourceMappingURL=home.css.map */

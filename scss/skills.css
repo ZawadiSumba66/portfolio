@@ -1,0 +1,21 @@
+#skills {
+  margin-top: 1rem;
+}
+#skills p {
+  color: #774936;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill-header {
+  color: #774936;
+}
+
+.skill-each {
+  color: #774936;
+  font-weight: 900;
+}/*# sourceMappingURL=skills.css.map */
