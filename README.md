@@ -4,7 +4,7 @@
  - HTML
  - CSS
  - Bootstrap
- - 
+ - SCSS
 ## Live Demo
 
 [Live demo](https://zawadisumba66.github.io/portfolio/)
