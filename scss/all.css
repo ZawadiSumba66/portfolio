@@ -163,6 +163,7 @@ hr {
 body {
   font-family: "Roboto", sans-serif;
   color: #f5d0c5;
+  overflow-x: hidden;
 }
 
 section {
