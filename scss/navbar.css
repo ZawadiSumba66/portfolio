@@ -1,0 +1,44 @@
+.navbar-custom {
+  background-color: #f5d0c5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-logo {
+  font-family: "Redressed", cursive;
+  color: #3c0000;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.nav-links a {
+  color: #3c0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #3c0000;
+  margin: 5px;
+  transition: all 0.3s ease;
+}

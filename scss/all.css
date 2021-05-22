@@ -1,0 +1,300 @@
+hr {
+  border-radius: 5px;
+  width: 10%;
+  border: 2px solid #f5d0c5;
+}
+
+.navbar-custom {
+  background-color: #f5d0c5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-logo {
+  font-family: "Redressed", cursive;
+  color: #3c0000;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  list-style: none;
+  padding: 0 10px;
+}
+.nav-links a {
+  color: #3c0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger .line1 {
+  width: 25px;
+  height: 3px;
+  background-color: #3c0000;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.burger .line2 {
+  width: 20px;
+  height: 3px;
+  background-color: #3c0000;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.burger .line3 {
+  width: 15px;
+  height: 3px;
+  background-color: #3c0000;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#projects {
+  color: #3c0000;
+  font-size: 13px;
+  font-weight: 500;
+}
+#projects hr {
+  border: 2px solid #f5d0c5;
+  border-radius: 20px;
+  width: 10%;
+}
+
+.all-projects {
+  margin-left: 200px;
+}
+
+.display-project a {
+  background-color: #3c0000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.display-project img {
+  width: 300px;
+  height: 200px;
+}
+
+#home {
+  background-color: #3c0000;
+  height: 550px;
+  padding-top: 150px;
+}
+#home a {
+  color: #f5d0c5;
+  font-size: 24px;
+}
+
+.text-home {
+  padding-left: 50px;
+  border-left: 6px solid #f5d0c5;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  display: flex;
+}
+.text-home h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.text-home h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#about {
+  color: #3c0000;
+}
+#about a {
+  background-color: #3c0000;
+  color: #f5d0c5;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#skills p {
+  color: #3c0000;
+  font-size: 16px;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill-header {
+  color: #3c0000;
+}
+
+.skill-each {
+  color: #3c0000;
+  font-weight: 900;
+}
+
+#contact {
+  background-color: #f5d0c5;
+  height: 200px;
+  color: #3c0000;
+}
+#contact hr {
+  border: 2px solid #3c0000;
+  border-radius: 5px;
+  width: 10%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #f5d0c5;
+  overflow-x: hidden;
+}
+
+section {
+  padding-top: 70px;
+  margin-top: -60px;
+}
+
+.wrap {
+  height: 100%;
+  overflow: auto;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.social-icons i {
+  font-size: 28px;
+  margin-left: 10px;
+  color: #3c0000;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-set {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #home {
+    padding-top: 100px;
+    height: 400px;
+  }
+  #home .text-home {
+    padding-left: 50px;
+    border-left: 6px solid #f5d0c5;
+    height: 100px;
+  }
+  #home .text-home h1 {
+    font-size: 1.5rem;
+  }
+  #home .text-home h3 {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    background-color: #f5d0c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    opacity: 0.7;
+  }
+  .nav-links li {
+    opacity: 0;
+    padding-top: 3rem;
+  }
+  .nav-links li a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  @-webkit-keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-1px, 5px);
+  }
+
+  .toggle .line2 {
+    display: none;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-1px, -5px);
+    width: 25px;
+  }
+
+  .skill-set p {
+    font-size: 0.9rem;
+  }
+
+  .display-project {
+    display: flex;
+    flex-direction: column;
+  }
+  .display-project img {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}/*# sourceMappingURL=all.css.map */

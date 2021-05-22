@@ -1,0 +1,19 @@
+#skills p {
+  color: $color-maroon;
+  font-size: 16px;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill-header {
+  color: $color-maroon;
+}
+
+.skill-each {
+  color: $color-maroon;
+  font-weight: 900;
+}
